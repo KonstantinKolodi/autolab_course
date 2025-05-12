@@ -1,0 +1,8 @@
+[0.011s] Invoking command in '/home/konstantin/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/konstantin/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[0.050s] failed to create symbolic link '/home/konstantin/ros2_ws/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/dynamixel_sdk' because existing path cannot be removed: Is a directory
+[0.051s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk] Error 1
+[0.051s] gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk.dir/all] Error 2
+[0.051s] gmake[1]: *** Waiting for unfinished jobs....
+[0.056s] [100%] Built target dynamixel_sdk
+[0.057s] gmake: *** [Makefile:146: all] Error 2
+[0.176s] Invoked command in '/home/konstantin/ros2_ws/build/dynamixel_sdk' returned '2': CMAKE_PREFIX_PATH=/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/konstantin/ros2_ws/build/dynamixel_sdk -- -j8 -l8

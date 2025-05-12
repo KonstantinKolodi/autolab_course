@@ -1,0 +1,20 @@
+[0.011s] Invoking command in '/home/konstantin/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/konstantin/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[0.058s] [100%] Built target dynamixel_sdk
+[0.061s] [100%] Built target ament_cmake_python_copy_dynamixel_sdk
+[0.213s] running egg_info
+[0.214s] writing dynamixel_sdk.egg-info/PKG-INFO
+[0.214s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[0.214s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[0.215s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.216s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.239s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[0.273s] Invoked command in '/home/konstantin/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/konstantin/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[0.280s] Invoking command in '/home/konstantin/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/konstantin/ros2_ws/build/dynamixel_sdk
+[0.286s] -- Install configuration: ""
+[0.286s] -- Up-to-date: /home/konstantin/ros2_ws/install/dynamixel_sdk/include/
+[0.286s] -- Up-to-date: /home/konstantin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[0.286s] -- Up-to-date: /home/konstantin/ros2_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.2-py3.10.egg-info
+[0.286s] -- Up-to-date: /home/konstantin/ros2_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk
+[0.309s] Listing '/home/konstantin/ros2_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[0.312s] -- Installing: /home/konstantin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[0.315s] Invoked command in '/home/konstantin/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/konstantin/ros2_ws/build/dynamixel_sdk

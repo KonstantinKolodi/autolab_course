@@ -1,0 +1,12 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/konstantin/autolab/ros2_ws/build/dynamixel_sdk_custom_interfaces/CMakeCache.txt is different than the directory /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+/bin/sh: 1: cd: can't cd to /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces
+/bin/sh: 1: cd: can't cd to /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/build.make:85: CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/depend] Error 2
+gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/build.make:153: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/depend] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:420: CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/all] Error 2
+/bin/sh: 1: cd: can't cd to /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces
+gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/build.make:183: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/depend] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

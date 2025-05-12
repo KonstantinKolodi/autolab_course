@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/my_robot_controller/my_robot_controller.egg-info
+writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/konstantin/autolab/ros2_ws/build/my_robot_controller/build
+creating /home/konstantin/autolab/ros2_ws/build/my_robot_controller/build/lib
+creating /home/konstantin/autolab/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/navigation.py -> /home/konstantin/autolab/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/__init__.py -> /home/konstantin/autolab/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/mapping.py -> /home/konstantin/autolab/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+running install
+running install_lib
+creating /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/konstantin/autolab/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/navigation.py -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/konstantin/autolab/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/konstantin/autolab/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/mapping.py -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+byte-compiling /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/navigation.py to navigation.cpython-310.pyc
+byte-compiling /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/mapping.py to mapping.cpython-310.pyc
+running install_data
+creating /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/ament_index
+creating /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+creating /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+copying resource/my_robot_controller -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller
+creating /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/maps
+copying maps/map.pgm -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/maps
+copying maps/map.yaml -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/maps
+creating /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+copying launch/navigation2.launch.py -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+copying launch/turtlebot3_world.launch.py -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+copying launch/start_mapping.launch.py -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+copying launch/run_navigation.launch.py -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+creating /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/worlds
+copying worlds/homework_world.world -> /home/konstantin/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller/worlds
+running install_egg_info
+Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mapping script to /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+Installing navigation script to /home/konstantin/autolab/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+writing list of installed files to '/home/konstantin/autolab/ros2_ws/build/my_robot_controller/install.log'

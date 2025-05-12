@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/konstantin/autolab/ros2_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/konstantin/autolab/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[0.013s] [0mCMake Error: The current CMakeCache.txt directory /home/konstantin/autolab/ros2_ws/build/dynamixel_sdk_custom_interfaces/CMakeCache.txt is different than the directory /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.030s] /bin/sh: 1: cd: can't cd to /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces
+[0.030s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/build.make:153: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/depend] Error 2
+[0.030s] /bin/sh: 1: cd: can't cd to /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces
+[0.030s] /bin/sh: 1: cd: can't cd to /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces
+[0.030s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/build.make:85: CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/depend] Error 2
+[0.031s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/all] Error 2
+[0.031s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/build.make:183: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/depend] Error 2
+[0.031s] gmake[1]: *** Waiting for unfinished jobs....
+[0.031s] gmake[1]: *** [CMakeFiles/Makefile2:420: CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/all] Error 2
+[0.031s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/all] Error 2
+[0.031s] gmake: *** [Makefile:146: all] Error 2
+[0.155s] Invoked command in '/home/konstantin/autolab/ros2_ws/build/dynamixel_sdk_custom_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/konstantin/autolab/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8

@@ -1,0 +1,9 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/konstantin/autolab/ros2_ws/build/dynamixel_sdk/CMakeCache.txt is different than the directory /home/konstantin/ros2_ws/build/dynamixel_sdk where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+/bin/sh: 1: cd: can't cd to /home/konstantin/ros2_ws/build/dynamixel_sdk
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk.dir/build.make:85: CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk.dir/depend] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/bin/sh: 1: cd: can't cd to /home/konstantin/ros2_ws/build/dynamixel_sdk
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:284: CMakeFiles/dynamixel_sdk.dir/depend] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dynamixel_sdk.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,47 @@
+[0.451s] Invoking command in '/home/konstantin/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/konstantin/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/konstantin/ros2_ws/build/my_robot_controller/build
+[0.597s] running develop
+[0.680s] Removing /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.698s] Invoked command in '/home/konstantin/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/konstantin/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/konstantin/ros2_ws/build/my_robot_controller/build
+[0.699s] Invoking command in '/home/konstantin/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/konstantin/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/konstantin/ros2_ws/build/my_robot_controller/build install --record /home/konstantin/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[0.859s] running egg_info
+[0.861s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.861s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.862s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.862s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.864s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.865s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.865s] creating /home/konstantin/ros2_ws/build/my_robot_controller/build
+[0.865s] creating /home/konstantin/ros2_ws/build/my_robot_controller/build/lib
+[0.865s] creating /home/konstantin/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.865s] copying my_robot_controller/navigation.py -> /home/konstantin/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.865s] copying my_robot_controller/__init__.py -> /home/konstantin/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.865s] copying my_robot_controller/mapping.py -> /home/konstantin/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.866s] running install
+[0.866s] running install_lib
+[0.867s] creating /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.867s] copying /home/konstantin/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/navigation.py -> /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.867s] copying /home/konstantin/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.867s] copying /home/konstantin/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/mapping.py -> /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.867s] byte-compiling /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/navigation.py to navigation.cpython-310.pyc
+[0.868s] byte-compiling /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[0.868s] byte-compiling /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/mapping.py to mapping.cpython-310.pyc
+[0.869s] running install_data
+[0.869s] copying resource/my_robot_controller -> /home/konstantin/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.869s] copying package.xml -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[0.869s] copying maps/map.pgm -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/maps
+[0.869s] copying maps/map.yaml -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/maps
+[0.870s] copying launch/navigation2.launch.py -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.870s] copying launch/turtlebot3_world.launch.py -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.870s] copying launch/start_mapping.launch.py -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.870s] copying launch/run_navigation.launch.py -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.870s] copying worlds/homework_world.world -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/worlds
+[0.870s] running install_egg_info
+[0.872s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.873s] running install_scripts
+[0.885s] Installing mapping script to /home/konstantin/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.885s] Installing navigation script to /home/konstantin/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.886s] writing list of installed files to '/home/konstantin/ros2_ws/build/my_robot_controller/install.log'
+[0.902s] Invoked command in '/home/konstantin/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/konstantin/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/konstantin/ros2_ws/build/my_robot_controller/build install --record /home/konstantin/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,2 @@
+Invoking command in '/home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+Invoked command in '/home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/konstantin/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/konstantin/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8

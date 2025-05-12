@@ -1,0 +1,35 @@
+[0.371s] Invoking command in '/home/konstantin/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/konstantin/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/konstantin/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[0.531s] running develop
+[0.667s] running egg_info
+[0.668s] creating my_robot_controller.egg-info
+[0.668s] writing my_robot_controller.egg-info/PKG-INFO
+[0.668s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.668s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.668s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.668s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.669s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.671s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.672s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.674s] running build_ext
+[0.674s] Creating /home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.676s] Installing mapping script to /home/konstantin/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.676s] Installing navigation script to /home/konstantin/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.677s] 
+[0.677s] Installed /home/konstantin/ros2_ws/build/my_robot_controller
+[0.677s] running symlink_data
+[0.677s] creating /home/konstantin/ros2_ws/install/my_robot_controller/share/ament_index
+[0.677s] creating /home/konstantin/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[0.678s] creating /home/konstantin/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.678s] symbolically linking /home/konstantin/ros2_ws/build/my_robot_controller/resource/my_robot_controller -> /home/konstantin/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.678s] symbolically linking /home/konstantin/ros2_ws/build/my_robot_controller/package.xml -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[0.678s] creating /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/maps
+[0.678s] symbolically linking /home/konstantin/ros2_ws/build/my_robot_controller/maps/map.pgm -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/maps
+[0.679s] symbolically linking /home/konstantin/ros2_ws/build/my_robot_controller/maps/map.yaml -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/maps
+[0.679s] creating /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.679s] symbolically linking /home/konstantin/ros2_ws/build/my_robot_controller/launch/navigation2.launch.py -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.679s] symbolically linking /home/konstantin/ros2_ws/build/my_robot_controller/launch/turtlebot3_world.launch.py -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.679s] symbolically linking /home/konstantin/ros2_ws/build/my_robot_controller/launch/start_mapping.launch.py -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.679s] symbolically linking /home/konstantin/ros2_ws/build/my_robot_controller/launch/run_navigation.launch.py -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.680s] creating /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/worlds
+[0.681s] symbolically linking /home/konstantin/ros2_ws/build/my_robot_controller/worlds/homework_world.world -> /home/konstantin/ros2_ws/install/my_robot_controller/share/my_robot_controller/worlds
+[0.738s] Invoked command in '/home/konstantin/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/konstantin/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konstantin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/konstantin/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
