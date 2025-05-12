@@ -46,4 +46,4 @@ AUTOWARE docker package from Moodle
 
 Check the location path of autolab package
 
-Remove build and install folders, buiild the package once again.
+Remove build and install folders, build the package once again.
