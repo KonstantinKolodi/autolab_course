@@ -7,7 +7,7 @@ Copy "autolab" folder into your home directory. after you can delete old autolab
 
 To run the container, open a new terminal and run the following command first: xhost +local:docker
 
-Log you in as the root user:
+Log in as the root user:
 
 docker run -it --rm --privileged --net=host \
   --env=DISPLAY \
@@ -36,8 +36,6 @@ Three goal destinations
 
 Ubuntu 22.04
 
-latest TurtleBot3 repository
-
 ROS 2 (Humble)
 
 Navigation and SLAM tools (if needed for mapping visualization)
@@ -46,6 +44,6 @@ AUTOWARE docker package from Moodle
 
 # Troubleshooting
 
-Check location path of autolab package
+Check the location path of autolab package
 
-Check remove build and install folders, buiild the package afterwards.
+Remove build and install folders, buiild the package once again.
